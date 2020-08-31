@@ -1,0 +1,87 @@
+<resources>
+    <!-- Base application theme. -->
+    <style name="AppTheme" parent="Theme.AppCompat.Light.DarkActionBar">
+        <!-- Customize your theme here. -->
+        <item name="colorPrimary">@color/colorPrimary</item>
+        <item name="colorPrimaryDark">@color/colorPrimaryDark</item>
+        <item name="colorAccent">@color/colorAccent</item>
+    </style>
+
+<!--    &lt;!&ndash; Text style &ndash;&gt;-->
+<!--    <style name="text_style">-->
+<!--        <item name="android:textSize">@dimen/text_size</item>-->
+<!--    </style>-->
+
+    <!-- item style-->
+    <style name="item_style">
+        <item name="android:paddingLeft">@dimen/margin</item>
+        <item name="android:paddingTop">@dimen/margin</item>
+        <item name="android:paddingBottom">@dimen/margin</item>
+        <item name="android:paddingRight">@dimen/margin</item>
+        <item name="android:textSize">@dimen/text_size</item>
+    </style>
+
+    <!-- list style-->
+    <style name="list_style">
+        <item name="android:layout_margin">@dimen/margin</item>
+    </style>
+
+    <!-- Magnitude style-->
+    <style name="mag_style">
+        <item name="android:layout_width">36dp</item>
+        <item name="android:layout_height">36dp</item>
+        <item name="android:layout_gravity">center_vertical</item>
+        <item name="android:fontFamily">sans-serif-medium</item>
+        <item name="android:background">@drawable/mag_circle</item>
+        <item name="android:gravity">center</item>
+        <item name="android:textSize">16sp</item>
+        <item name="android:textColor">@android:color/white</item>
+    </style>
+
+    <!-- Distance style-->
+    <style name="dis_style">
+        <item name="android:layout_width">match_parent</item>
+        <item name="android:layout_height">wrap_content</item>
+        <item name="android:gravity">left</item>
+        <item name="android:ellipsize">end</item>
+        <item name="android:fontFamily">sans-serif-medium</item>
+        <item name="android:maxLines">1</item>
+        <item name="android:textAllCaps">true</item>
+        <item name="android:textSize">12sp</item>
+        <item name="android:textColor">@color/textColorEarthquakeDetails</item>
+    </style>
+
+    <!-- Location style-->
+    <style name="loc_style">
+        <item name="android:layout_width">match_parent</item>
+        <item name="android:layout_height">wrap_content</item>
+        <item name="android:gravity">left</item>
+        <item name="android:ellipsize">end</item>
+        <item name="android:fontFamily">sans-serif-medium</item>
+        <item name="android:maxLines">2</item>
+        <item name="android:textSize">16sp</item>
+        <item name="android:textColor">@color/textColorEarthquakeLocation</item>
+    </style>
+
+    <!-- Date style-->
+    <style name="date_style">
+        <item name="android:layout_width">match_parent</item>
+        <item name="android:layout_height">wrap_content</item>
+        <item name="android:gravity">right</item>
+        <item name="android:ellipsize">end</item>
+        <item name="android:maxLines">1</item>
+        <item name="android:textSize">12sp</item>
+        <item name="android:textColor">@color/textColorEarthquakeDetails</item>
+    </style>
+
+    <!-- Time style-->
+    <style name="time_style">
+        <item name="android:layout_width">match_parent</item>
+        <item name="android:layout_height">wrap_content</item>
+        <item name="android:gravity">right</item>
+        <item name="android:ellipsize">end</item>
+        <item name="android:maxLines">1</item>
+        <item name="android:textSize">12sp</item>
+        <item name="android:textColor">@color/textColorEarthquakeDetails</item>
+    </style>
+</resources>

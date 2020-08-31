@@ -1,0 +1,34 @@
+<PreferenceScreen
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:title="@string/settings_item"
+    >
+
+    <EditTextPreference
+        android:defaultValue="@string/settings_number_of_items_default"
+        android:hint="@string/hint_num_of_items"
+        android:inputType="numberDecimal"
+        android:key="@string/settings_number_of_items_key"
+        android:selectAllOnFocus="true"
+        android:title="@string/settings_number_of_items_label"
+        />
+
+    <ListPreference
+        android:defaultValue="@string/settings_order_by_default"
+        android:entries="@array/settings_order_by_labels"
+        android:entryValues="@array/settings_order_by_values"
+        android:key="@string/settings_order_by_key"
+        android:title="@string/settings_order_by_label"
+        app:allowDividerAbove="true"
+        />
+
+    <Preference
+        android:defaultValue="@string/settings_start_time_default"
+        android:key="@string/settings_start_time_key"
+        android:title="@string/settings_start_time_label"
+        app:allowDividerAbove="true"
+        />
+
+
+
+</PreferenceScreen>

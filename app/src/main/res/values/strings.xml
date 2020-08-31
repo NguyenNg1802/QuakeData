@@ -1,0 +1,57 @@
+<resources>
+    <string name="app_name">Quake Data</string>
+
+    <string name="settings_item">Settings</string>
+
+    <string name="refresh_item">Refresh</string>
+
+    <string name="about_item">About</string>
+
+    <string name="settings_title">Earthquake Settings</string>
+
+    <string name="title_activity_settings">SettingsActivity</string>
+
+    <!-- Preference Titles -->
+    <string name="basic_header">Basic settings</string>
+
+    <!-- Number of item Preferences -->
+    <string name="settings_number_of_items_label">Number of items</string>
+    <string name="hint_num_of_items">Between 1 and 50</string>
+    <string name="settings_number_of_items_key" translatable="false">number_of_items</string>
+    <string name="settings_number_of_items_default" translatable="false">10</string>
+
+
+    <!-- Strings for Order-By preference -->
+    <string name="settings_order_by_label">Order By</string>
+    <string name="settings_order_by_key" translatable="false">order_by</string>
+    <string name="settings_order_by_default" translatable="false">@string/settings_order_by_time_desc_value</string>
+
+    <!-- Label for order-by decending time option -->
+    <string name="settings_order_by_time_desc_label">Newest</string>
+    <string name="settings_order_by_time_desc_value" translatable="false">time</string>
+
+    <!-- Label for order-by ascending time option -->
+    <string name="settings_order_by_time_asc_label">Oldest</string>
+    <string name="settings_order_by_time_asc_value" translatable="false">time-asc</string>
+
+    <!-- Label for order-by descending magnitude option -->
+    <string name="settings_order_by_magnitude_desc_label">Highest magnitude</string>
+    <string name="settings_order_by_magnitude_desc_value">magnitude</string>
+
+    <!-- Label for order-by ascending magnitude option -->
+    <string name="settings_order_by_magnitude_asc_label">Smallest magnitude</string>
+    <string name="settings_order_by_magnitude_asc_value">magnitude-asc</string>
+
+
+    <!-- Strings for start time preference -->
+    <string name="settings_start_time_label">Start Time</string>
+    <string name="settings_start_time_key" translatable="false">start time</string>
+    <string name="settings_start_time_default" translatable="false">2020-08-01</string>
+
+    <!-- Strings for end time preference -->
+    <string name="settings_end_time_label">End Time</string>
+    <string name="settings_end_time_key" translatable="false">end time</string>
+    <string name="settings_end_time_default" translatable="false">2020-08-29</string>
+
+
+</resources>

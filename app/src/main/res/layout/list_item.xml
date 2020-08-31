@@ -1,0 +1,68 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:orientation="horizontal"
+    android:paddingLeft="16dp"
+    android:paddingRight="16dp"
+    android:paddingTop="8dp"
+    android:paddingBottom="8dp"
+    >
+
+    <TextView
+        style="@style/mag_style"
+        android:id="@+id/mag"
+        tools:background="@color/colorAccent"
+        tools:text="7.2" />
+
+    <LinearLayout
+        android:layout_width="0dp"
+        android:layout_height="match_parent"
+        android:layout_weight="1"
+        android:layout_marginLeft="16dp"
+        android:layout_marginStart="16dp"
+        android:gravity="center_vertical"
+        android:orientation="vertical">
+
+        <TextView
+            style="@style/dis_style"
+            android:id="@+id/dis"
+            tools:background="@color/colorPrimaryDark"
+            tools:text="70km from north"
+            />
+
+        <TextView
+            style="@style/loc_style"
+            android:id="@+id/loc"
+            tools:text="San Francisco"
+            />
+
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="wrap_content"
+        android:layout_height="match_parent"
+        android:gravity="center_vertical"
+        android:orientation="vertical"
+        >
+
+        <TextView
+            style="@style/date_style"
+            android:id="@+id/date"
+            tools:background="@color/colorPrimary"
+            tools:text="Feb 18, 2016"
+            />
+
+        <TextView
+            style="@style/time_style"
+            android:id="@+id/time"
+            tools:background="@color/colorPrimary"
+            tools:text="12:00 AM"
+            />
+
+    </LinearLayout>
+
+
+</LinearLayout>
