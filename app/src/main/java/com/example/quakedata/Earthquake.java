@@ -5,7 +5,7 @@ public class Earthquake {
     private String place;
     private long unix_time;
     private String url;
-    private int version;
+    private int ver2;
 
     public Earthquake (double mag, String place, long unix_time, String url) {
         this.mag = mag;
@@ -44,5 +44,13 @@ public class Earthquake {
 
     public void setUrl(String url) {
         this.url = url;
+    }
+
+    public void setVer2(int ver2) {
+        this.ver2 = ver2;
+    }
+
+    public int getVer2() {
+        return ver2;
     }
 }
