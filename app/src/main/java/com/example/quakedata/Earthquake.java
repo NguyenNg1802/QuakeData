@@ -5,7 +5,6 @@ public class Earthquake {
     private String place;
     private long unix_time;
     private String url;
-    private int ver2;
     private int ver;
     private int ver2;
 
@@ -46,14 +45,6 @@ public class Earthquake {
 
     public void setUrl(String url) {
         this.url = url;
-    }
-
-    public void setVer2(int ver2) {
-        this.ver2 = ver2;
-    }
-
-    public int getVer2() {
-        return ver2;
     }
 
     public int getVer() {
